@@ -10,8 +10,11 @@ conda install -c conda-forge glpk
 
 conda install -c conda-forge ipopt=3.11.1 
 
+# Run the simulation code
+The simulation code used to produce Figure 2 is available to download and run (Simulation for CRN a.py). 
+
 # Run the optimization codes
-You can use the the optimization codes (Optimization1_CascadeMOO_BTO_variedIC.py & Optimization2_CascadeMOO_BTO_variedIC.py) to produce all optimization results in our paper and more. Save both files in the same directory. Open both files in Spyder and run the Optimization1_CascadeMOO_BTO_variedIC.py file. You can vary the values of the parameters to produce different pareto frontiers. 
+The optimization codes used to produce Figure 3 are available to download and run (Optimization1_CascadeMOO_BTO_variedIC.py & Optimization2_CascadeMOO_BTO_variedIC.py) Both files must be saved in the same directory. To produce the results one has to run the Optimization1_CascadeMOO_BTO_variedIC.py file. You can vary the values of the parameters to produce different pareto frontiers. 
 
 # Publications
 When using this work, please cite our paper:
