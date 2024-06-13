@@ -16,4 +16,4 @@ You can use the the optimization codes (Optimization1_CascadeMOO_BTO_variedIC.py
 # Publications
 When using this work, please cite our paper:
 
-Leandros Paschalidis, Daniela Fröschl, Manuel Ibanez, Samuel Sutiono, Volker Sieber, Jakob Burger, Boosting of enyzmatic cascades by intermediates: theoretical analysis and model-based optimization, Submited to Biochemical Engineering Journal
+Leandros Paschalidis, Daniela Fröschl, Manuel Ibañez, Samuel Sutiono, Volker Sieber, Jakob Burger, Boosting of enyzmatic cascades by intermediates: theoretical analysis and model-based optimization, Submited to Biochemical Engineering Journal
