@@ -35,7 +35,7 @@ S4_initial = 4
 E_A = 1
 E_B = 1
 
-#-----------------------------------------------------------------------------
+#-----------------------------------------------------------Algebraic equations
 
 def Reaction_rates(S,t):  
     v = {}
@@ -43,7 +43,7 @@ def Reaction_rates(S,t):
     v['II'] = k['B']*E_B*S[2]*S[5]/ (S[2]+30)/ (S[5]+10)
     return(v)
 
-#-------------------------------------------------------DIFFERENTIAL_EQUATIONS
+#-------------------------------------------------------Differential equations
 def Material_balances(S,t):         
     v = Reaction_rates(S,t)
     dS1dt = -v['I']
@@ -54,7 +54,7 @@ def Material_balances(S,t):
     dSdt = [0, dS1dt, dS2dt, dS3dt, dS4dt, dS5dt]
     return(dSdt)
 
-#-----------------------------------------------------------------------SOLVER
+#--------------------------------------------------------------------Solver
 t = np.linspace(0,t_f,200)  
 S0 = [0, S1_initial, S2_initial, 0, S4_initial, 0]
 S = odeint(Material_balances,S0,t)
