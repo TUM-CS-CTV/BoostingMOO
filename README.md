@@ -1,5 +1,5 @@
 # BoostingMOO
-The pyomo codes used to produce results for the boosting by intermediate paper are given here. 
+The python and pyomo codes used to produce results for the boosting by intermediate paper are given here. 
 
 # Setup
 Install Anaconda in your PC. PYOMO, GLPK and IPOPT 3.11.1 are required to run the optimization codes. These can be installed by running the following commands in the Powershell Prompt of anaconda navigator:
